@@ -20,7 +20,7 @@ const App = () => {
 
         <div className="child-container">
           <h2>Child component</h2>
-          <input onChange={change}/>
+          <input onChange={change} type='text'/>
         </div>
         </div>  
     </div>
