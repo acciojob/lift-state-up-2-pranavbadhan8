@@ -14,11 +14,11 @@ const App = () => {
   return (
     <div className='container'>
         {/* Do not remove the main div */}
-        <div className="parent-container">
+        <div className='parent'>
            <h1>Parent Component</h1>
            <p>{input}</p>
 
-        <div className="child-container">
+        <div className='child'>
           <h2>Child component</h2>
           <input onChange={change} type='text'/>
         </div>
